@@ -19,6 +19,7 @@ resource "null_resource" "multi_line_cmd" {
   }
 
   provisioner "local-exec" {
+    # coming from `modules/network/outputs.tf` file.
     command     = <<-EOT
       echo ${module.network.vpc_id} > test.txt
       echo ${join(",", module.network.public_subnet_ids)} >> test.txt
