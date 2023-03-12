@@ -1,12 +1,16 @@
 .idea/
 .terraform/
 *.tfstate
-# ./*.tfstate
-# example/*.tfstate
-# !bootstrap/*.tfstate
+#./*.tfstate
+example/*.tfstate
+example/.terraform.lock.hcl
+example/bootstrap/.terraform.lock.hcl
+example/bootstrap/*.tfstate
+bootstrap/*.tfstate
 *.tfstate.backup
 .terraform.tfvars
 .terraform.tfstate.lock.info
+.terraform.lock.hcl
 *.iml
 .history
 
@@ -29,4 +33,4 @@ vars.sh
 tf.plan
 
 # Make it possible to check-in the bootstrap state
-!/example/bootstrap/**/*.tfstate
+# !/example/bootstrap/**/*.tfstate
