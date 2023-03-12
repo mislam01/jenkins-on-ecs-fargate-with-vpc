@@ -1,0 +1,5 @@
+vpc-06e4c06b345688cb8
+subnet-0a3b8b6dfe983cb76,subnet-0110eb8eae8396055,subnet-0ca5a5fdbef93830b
+subnet-0a48d6a64eae8dc37,subnet-08b3583a4c3bf1dc6,subnet-0917a041c5a60512a
+PUBLIC_SUBNETS='["subnet-0a3b8b6dfe983cb76","subnet-0110eb8eae8396055","subnet-0a3b8b6dfe983cb76"]'
+PRIVATE_SUBNETS='["subnet-0a48d6a64eae8dc37","subnet-08b3583a4c3bf1dc6","subnet-0a48d6a64eae8dc37"]'

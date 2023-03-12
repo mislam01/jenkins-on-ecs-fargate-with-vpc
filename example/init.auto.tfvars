@@ -1,0 +1,5 @@
+aws_profile           = "051493256985"
+aws_region            = "us-east-1"
+state_bucket_name     = "tf-jenkins-dev-useast1"
+state_key_name        = "tf-jenkins-dev-useast1.tfstate"
+state_lock_table_name = "tf-jenkins-dev-useast1-lock"
