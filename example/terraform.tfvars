@@ -1,4 +1,4 @@
-aws_profile = "051493256985"
+aws_profile = "TOBEREPLACED"
 aws_region  = "us-east-1"
 environment = "Development"
 
@@ -10,6 +10,6 @@ private_subnet_1_cidr = "10.0.10.0/24"
 private_subnet_2_cidr = "10.0.11.0/24"
 private_subnet_3_cidr = "10.0.12.0/24"
 
-route53_zone_id     = "Z01445063V4CHCV438H5V"
-route53_domain_name = "rafiqcloud.com"
+route53_zone_id     = "TOBEREPLACED"
+route53_domain_name = "TOBEREPLACED"
 jenkins_dns_alias   = "jenkins-dev-controller"
