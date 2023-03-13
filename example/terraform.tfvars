@@ -11,5 +11,5 @@ private_subnet_2_cidr = "10.0.11.0/24"
 private_subnet_3_cidr = "10.0.12.0/24"
 
 route53_zone_id     = "TOBEREPLACED"
-route53_domain_name = "TOBEREPLACED"
+route53_domain_name = "rafiqcloud.com"
 jenkins_dns_alias   = "jenkins-dev-controller"

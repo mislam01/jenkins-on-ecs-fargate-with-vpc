@@ -1,16 +1,15 @@
 .idea/
+.private/
+.private/*
 .terraform/
 *.tfstate
 #./*.tfstate
 example/*.tfstate
-example/.terraform.lock.hcl
-example/bootstrap/.terraform.lock.hcl
 example/bootstrap/*.tfstate
 bootstrap/*.tfstate
 *.tfstate.backup
 .terraform.tfvars
 .terraform.tfstate.lock.info
-.terraform.lock.hcl
 *.iml
 .history
 

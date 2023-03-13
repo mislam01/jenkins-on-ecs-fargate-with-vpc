@@ -6,7 +6,7 @@
       "memory": ${memory},
       "memoryReservation": ${memory},
       "environment": [
-        { "name" : "JAVA_OPTS", "value" : "-Djenkins.install.runSetupWizard=false" }
+        { "name" : "_OPTS", "value" : "-Djenkins.install.runSetupWizard=false" }
       ],
       "essential": true,
       "mountPoints": [
